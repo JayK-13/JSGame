@@ -53,7 +53,7 @@ body {
 #player {
     height:50px;
     width: 25px;
-    position: absolute;
+    position: relative;
     margin-top: 0;
     margin-left: 900;
 }
@@ -61,7 +61,7 @@ body {
 #citty {
     width:40px;
     height:30px;
-    position: absolute;
+    position: relative;
     margin-top: 440;
     margin-left: 330;
 }
@@ -69,6 +69,7 @@ body {
 #dlanod {
     height: 50px;
     width: 25px;
+    position: relative;
     margin-top: 130;
     margin-left: 400;
 }
@@ -98,6 +99,7 @@ body {
     transition-duration: 0.4s;
     font-family: Courier New;
     text-decoration: none;
+    position: absolute;
 }
 
 #button1:hover {

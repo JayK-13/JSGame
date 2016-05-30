@@ -54,32 +54,32 @@ body {
     height:50px;
     width: 25px;
     position: absolute;
-    x: 0;
-    y: 0;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 #citty {
     width:40px;
     height:30px;
     position: absolute;
-    x: 440;
-    y: 330;
+    margin-top: 440;
+    margin-left: 330;
 }
 
 #dlanod {
     height: 50px;
     width: 25px;
     position: absolute;
-    x: 1030;
-    y: 400;
+    margin-top: 1030;
+    margin-left: 400;
 }
 
 #yay {
     width: 40px;
     height: 30px;
     position: absolute;
-    margin-top: 150;
-    margin-left: 500;
+    margin-top: 900;
+    margin-left: 900;
 }
 
 #xl {

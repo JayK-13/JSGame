@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 //Your jquery goes here
-var player = $("#player")
+var player = $("#player");
 
         //move up
       case 38:

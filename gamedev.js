@@ -2,6 +2,10 @@
 $(document).ready(function() {
     //Your jquery goes here
     var player = $("#player");
+        var xl = $("#xl");
+            var citty = $("#citty");
+
+
     $(document).keydown(function(e) {
         $(player).keydown;
         switch (e.which) {

@@ -111,5 +111,5 @@ $.each($('.otherCar'), function() {
                     $("#alwaysPizza").show().delay(200).fadeOut();
                 }else{}
             });
-    }
+    })
 });

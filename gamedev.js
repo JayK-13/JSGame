@@ -1,34 +1,25 @@
 $( document ).ready(function() {
 
 //Your jquery goes here
-  $(document).keydown(function(e) {
-    $(myCar).keydown;
-    switch (e.which) {
-
-      //move left
-      case 37:
-        $(myCar).animate({
-          left: "-=40px"
-        }, 'fast');
-        break;
+var player = $("#player")
 
         //move up
       case 38:
-        $(myCar).animate({
+        $(player).animate({
           top: "-=40px"
         }, 'fast');
         break;
 
         //move right
       case 39:
-        $(myCar).animate({
+        $(player).animate({
           left: "+=40px"
         }, 'fast');
         break;
 
         //move down
       case 40:
-        $(myCar).animate({
+        $(player).animate({
           top: "+=40px"
         }, 'fast');
         break;

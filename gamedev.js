@@ -3,6 +3,16 @@ $( document ).ready(function() {
 //Your jquery goes here
 var player = $("#player");
 
+$(document).keydown(function(e) {
+    $(player).keydown;
+    switch (e.which) {
+
+      //move left
+      case 37:
+        $(player).animate({
+          left: "-=40px"
+        }, 'fast');
+        break;
         //move up
       case 38:
         $(player).animate({

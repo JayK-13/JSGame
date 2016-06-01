@@ -12,25 +12,25 @@ $(document).ready(function() {
             //move left
             case 37:
                 $(player).animate({
-                    left: "-=40px"
+                    left: "-=35px"
                 }, 'fast');
                 break;
                 //move up
             case 38:
                 $(player).animate({
-                    top: "-=40px"
+                    top: "-=35px"
                 }, 'fast');
                 break;
                 //move right
             case 39:
                 $(player).animate({
-                    left: "+=40px"
+                    left: "+=35px"
                 }, 'fast');
                 break;
                 //move down
             case 40:
                 $(player).animate({
-                    top: "+=40px"
+                    top: "+=35px"
                 }, 'fast');
                 break;
         }

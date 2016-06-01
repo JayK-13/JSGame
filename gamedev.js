@@ -108,7 +108,7 @@ $(document).ready(function() {
             function() {
                 if (collision($('#player'), $(this))) {
                     $("#alwaysPizza").show().delay(200).fadeOut();
-                }
+                }else{}
             });
     }
 });

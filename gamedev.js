@@ -52,6 +52,8 @@ $(document).ready(function() {
         if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
         return true;
     }
+      window.setInterval(function() {
+
     $.each($('#citty'), function() {
         if (collision($('#player'), $(this))) {
             var cittyquestion = prompt(

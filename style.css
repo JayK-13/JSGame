@@ -162,5 +162,6 @@ body {
 }
 
 #first {
+    color: black;
     position: absolute; bottom: 100px; left: 706px;
 }

@@ -161,7 +161,6 @@ body {
     border:2px solid black;
 }
 
-.pathmaker {
-    color: black;
-    border-color: white;
+#first {
+    position: absolute; bottom: 100px; left: 706px;
 }

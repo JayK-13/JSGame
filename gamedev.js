@@ -68,7 +68,7 @@ $(document).ready(function() {
         } else {}
     });
 
-    function collision($div1, $div2) {
+    function collision2($div1, $div2) {
         var x1 = $div1.offset().left;
         var y1 = $div1.offset().top;
         var h1 = $div1.outerHeight(true);
@@ -84,7 +84,7 @@ $(document).ready(function() {
         if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
         return true;
     $.each($('#xl'), function() {
-            if (collision($('#player'), $(this))) {
+            if (collision2($('#player'), $(this))) {
                 $("#alwaysPizza").show().delay(200).fadeOut();
             }
         })

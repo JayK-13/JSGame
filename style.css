@@ -162,5 +162,6 @@ body {
 }
 
 .pathmaker {
-    color: black
+    color: black;
+    border-color: white;
 }

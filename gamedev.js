@@ -36,7 +36,7 @@ $(document).ready(function() {
         }
     });
 
-    function collision($div1, $div2) {
+    function collision1($div1, $div2) {
         var x1 = $div1.offset().left;
         var y1 = $div1.offset().top;
         var h1 = $div1.outerHeight(true);
@@ -54,7 +54,7 @@ $(document).ready(function() {
     }
 
     $.each($('#citty'), function() {
-        if (collision($('#player'), $(this))) {
+        if (collision1($('#player'), $(this))) {
             var cittyquestion = prompt(
                 "I'm tall when I'm young and short when I'm old. What am I?"
             ).toLowerCase();

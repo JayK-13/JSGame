@@ -144,7 +144,8 @@ body {
     height: 390px;
     width: 1000px;
     text-align: center;
-    margin-top:10px; 
+    margin-left: 200px; 
+    margin-top: 0px;
     font-size: 38px;
     position: absolute;
 }
@@ -164,5 +165,68 @@ body {
 #textinput{
     width: 300px;
     height: 300px;
-    background-color: red;
+    background-color: white;
+}
+
+#textinput1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+
+#textinput2{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+#correct {
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+        margin-top:30px; 
+
+}
+
+#theend {
+    margin-left: 450px
+}
+
+
+#end {
+    border: 5px solid #000000;
+    color: #000000;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #ffffff;
+    box-shadow: 15px 15px 80px #555;
+    cursor: pointer;
+    margin-left: 450px;
+}
+  a#end:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  #endgame {
+    background-color: black;
+    padding: 5px 7px;
+    font-size: 10px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Courier New;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 755px;
+    margin-left: 283px;
+    width: 60px;
+    text-align: center;
+}
+
+#endgame:hover {
+    background-color: white;
+    color: black;
 }
